@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: raleway;
-    src: url(../fonts/Raleway-Medium.woff);
+    src: url(../fonts/Raleway-Medium.woff)
 }
 
 :root{
-    --tbranco: #ffffff;
-    --tazul: #33a8db;
+    --corBranco: #ffffff;
+    --corAzul: #33a8db;
 }
 
 *{
@@ -44,11 +44,12 @@ header{
 
 header h1{
     color: #33a8db;
-    font-family: relaway;
+    font-family: raleway;
     font-size: 40px;
     margin-top: 20px;
     text-transform: uppercase;
     font-weight: 900;
+    line-height: 46.96px;
 }
 
 header p{
@@ -58,11 +59,16 @@ header p{
     font-size: 20px;
 }
 
+main>section#course-content{
+    height: 609px;
+    color: var(--tbranco);
+    align-content: center;
+    background-color: #040404;
+}
+
 #transform-world{
     height: 460px;
     background: url(../images/woman-code.png) no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    
-    
 }
